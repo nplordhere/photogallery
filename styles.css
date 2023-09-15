@@ -61,6 +61,7 @@ body {
 
 header h1 {
     text-align: center;
+    line-height: 1.1em;
 }
 
 /* Navigation Menu */
@@ -195,4 +196,33 @@ h2 {
     text-transform: uppercase;
     text-align: center;
     margin: 10px 0px 15px 0px;
+}
+
+/* Breakpoints */
+@media screen and (min-width: 880px) {
+    body {
+        width: 880px;
+    }
+    header h1 {
+        text-align: left;
+        padding-left: 10px;
+    }
+    #images {
+        grid-template-columns: 1fr 1fr;
+    }
+    label {
+        padding-left: 95px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    body {
+       width: 1300px; 
+    }
+    #images {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    label {
+        padding-left: 135px;
+    }
 }
