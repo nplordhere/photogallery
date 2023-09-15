@@ -98,6 +98,10 @@ li:last-child {
     grid-template-columns: 1fr;
     text-align: center;
 }
+#images h2 {
+    position: absolute;
+    visibility: hidden;
+}
 figcaption {
     position: relative;
 }
