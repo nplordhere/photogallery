@@ -223,6 +223,9 @@ h2 {
     body {
        width: 1300px; 
     }
+    nav ul {
+        justify-content: right;
+    }
     #images {
         grid-template-columns: 1fr 1fr 1fr;
     }
